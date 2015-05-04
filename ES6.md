@@ -4,6 +4,27 @@ https://github.com/ES-CN/es6features/blob/master/README.md
 ### 箭头函数
 箭头函数和其上下文中的代码共享同一个具有词法作用域的this
 
+```
+var f = () => 5;
+// 等同于
+var f = function (){ return 5 };
+
+var sum = (num1, num2) => num1 + num2;
+// 等同于
+var sum = function(num1, num2) {
+    return num1 + num2;
+};
+```
+如果箭头函数的代码块部分多于一条语句，就要使用大括号将它们括起来，并且使用return语句返回。
+```
+var sum = (num1, num2) => { return num1 + num2; }
+```
+
+由于大括号被解释为代码块，所以如果箭头函数直接返回一个对象，必须在对象外面加上括号。
+```
+var getTempItem = id => ({ id: id, name: "Temp" });
+```
+
 ### 增强的Object字面量
 ```
 var obj = {
