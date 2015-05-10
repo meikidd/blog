@@ -5,3 +5,5 @@
 - [团队](https://github.com/meikidd/blind/blob/master/team.md)
 
 - [异步流程控制-7行代码学会co模块](https://github.com/meikidd/blind/blob/master/learning-co.md)
+
+- [nodejs回调黑洞](http://zhuanlan.zhihu.com/FrontendMagazine/19750470)
