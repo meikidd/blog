@@ -1,4 +1,4 @@
-# The React Quick Start Guide
+原文链接：[The React Quick Start Guide](http://www.jackcallister.com/2015/01/05/the-react-quick-start-guide.html)
 
 这篇文章将概括性的介绍一下如何用 ReactJS 进行开发。我将介绍一些基础知识，不会有过于深入的分析。你可以结合这些[代码](https://github.com/jarsbe/react-starter-kit)阅读本文。更新：本文已经由 [Hugo Bessa](https://twitter.com/hugoBessaa) 翻译了[葡萄牙语版](http://hugobessa.com.br/posts/comecando-com-react/)。
 

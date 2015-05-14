@@ -11,3 +11,5 @@
 - [React入门指南](https://github.com/meikidd/blind/blob/master/the-react-quick-start-guide.md)
 
 - [深入理解Promise五部曲](http://segmentfault.com/a/1190000000586666)
+
+- [ReactJS 学习笔记](https://github.com/meikidd/blind/blob/master/learning-reactjs.md)
