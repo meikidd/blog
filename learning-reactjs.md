@@ -29,5 +29,7 @@
   - 官方建议是写的专门的WEB-API Utils里面，由ActionCreator调用WEB-API Utils
 写在Store里是绝对不可取的，因为Store一旦异步化会导致dispatcher的waitFor失效（看waitFor的源码就知道了）
 
+-
+
 ---------
 ### 参考
