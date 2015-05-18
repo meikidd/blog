@@ -16,7 +16,7 @@
   - 在一些小的项目/页面上应用起来
 
 - [react 工程化问题](http://react-china.org/t/wen-xia-da-jia-zai-xiang-mu-zhong-shi-yong-reactde-shi-hou-xie-gong-cheng-hua-de-wen-ti/287)
-  - 打包用 webpack
+  - webpack
   - requireJS, CommonJS
   - browserify + gulp
 

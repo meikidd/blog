@@ -22,6 +22,7 @@
 ## 翻译
 
 - [ReactJS 入门指南](https://github.com/meikidd/blind/blob/master/the-react-quick-start-guide.md)
+- [Flux 入门指南](https://github.com/meikidd/blind/blob/master/the-flux-quick-start-guide.md)
 
 - [ReactJS 实用技巧和最佳实践](https://github.com/meikidd/blind/blob/master/react-tips-and-best-practices.md)
 
