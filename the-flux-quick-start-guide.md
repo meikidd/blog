@@ -7,9 +7,9 @@
 ---------------
 
 ## 概念
-Flux 是用来构件用户端 Web 应用的架构，它包含三个核心概念：**Views**, **Stores** 和 **Dispatcher**，还有一些次级概念：**Actions**, **Action Types**, **Action Creators** 和 **Web Utils**。
+Flux 是用来构建用户端 Web 应用的架构，它包含三个核心概念：**Views**, **Stores** 和 **Dispatcher**，还有一些次级概念：**Actions**, **Action Types**, **Action Creators** 和 **Web Utils**。
 
-请耐心学习以下概念定义然后再看下面的教程。当你准备开始开发 Flux 应用之前，建议你再回过头来看一遍基本概念。
+请耐心学习以下概念定义然后再看后面的教程。当你准备开始开发 Flux 应用之前，建议你再回过头来看一遍基本概念。
 
 ### 核心概念
 **Views** 即 React 组件。它们负责渲染界面，捕获用户事件，从 Stores 获取数据。
@@ -55,7 +55,7 @@ var App = React.createClass({
 React.render(<App />, document.getElementById('app'));
 ```
 
-上面代码把 Views 渲染到 DOM 中。先忽略 `Comments` View，看一下 `CommentFrom` 的实现。
+上面代码把 Views 渲染到 DOM 中。先忽略 `Comments`，看一下 `CommentFrom` 的实现。
 
 ```javascript
 var React = require('react');
@@ -192,7 +192,79 @@ Store 由 `EventEmitter.prototype` 和自定义对象整合而成。`EventEmitte
 
 ---------------
 
-现在我们需要一个 View 在展示 Store 的数据，并订阅数据的变化。
+现在我们需要一个 View 来展示 Store 的数据，并订阅数据的变化。
 
 在 `views` 目录里有个 `comments.js` 文件。把它修改成如下所示：
 
+```javascript
+var React = require('react');
+
+var CommentStore = require('../stores/comment-store');
+
+function getStateFromStore() {
+  return {
+    comments: CommentStore.getAll()
+  }
+}
+
+var Comments = React.createClass({
+  
+  onChange: function() {
+    this.setState(getStateFromStore());
+  },
+
+  getInitialState: function() {
+    return getStateFromStore();
+  },
+
+  componentDidMount: function() {
+    CommentStore.addChangeListener(this.onChange);
+  },
+
+  componentWillUnmount: function() {
+    CommentStore.removeChangeListener(this.onChange);
+  },
+
+  render: function() {
+    var comments = this.state.comments.map(function(comment, index) {
+      return (
+        <div className='comment' key={'comment-' + index}>
+          {comment.text}
+        </div>
+      );
+    });
+
+    return (
+      <div className='comments'>
+        {comments}
+      </div>
+    )
+  }
+});
+
+module.exports = Comments;
+```
+
+`getStateFromStores` 函数从 Store 获取 comment 数据，并在 `getInitialState` 中设置为初始值。
+
+在 `componentDidMount` 中，`onChange` 函数作为 `addChangeListener` 的回调函数，当 Store 触发 `change` 事件时 `onChange` 函数将被调用，即当 Store 数据变化时，它用于更新组件的 state 状态。
+
+最后 `componentWillUnmount` 将 `onChange` 事件监听从 Store 移除。
+
+------------------
+
+## 结语
+
+现在这个 Flux 应用可以运行起来了，同时我们也学习了 Flux 架构的核心概念：Views, Stores 和 Dispatcher。
+
+- 当提交 comment 时，View 调用了 Action Creator
+- Action Creator 创建一个 Action 并传给 Dispatcher
+- Dispatcher 将 Action 发送给 Store 中注册的回调函数
+- Store 更新 comment 数据，并触发一个 change 事件
+- View 更新 state 并重新渲染界面
+
+这就是 Flux 的本质，Dispatcher 发送数据给所有 Stores，后者通知 Views 进行更新。
+
+要想更深入理解 Flux 架构，我建议阅读 [官方文档](https://facebook.github.io/flux/)，或者看看这个 [视频教程](https://www.youtube.com/watch?v=nYkdrAPrdcw&list=PLb0IAmt7-GS188xDYE-u1ShQmFFGbrk0v)，还有 [官方示例](https://github.com/facebook/flux/tree/master/examples)。
+
+如果本文有什么错误之处，欢迎在 [twitter](http://twitter.com/jarsbe) 上联系我，或者给我提 [pull request](https://github.com/jarsbe/jarsbe.github.io)。欢迎大家给我提建议改善这边文章。
