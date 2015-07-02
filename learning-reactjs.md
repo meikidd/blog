@@ -30,6 +30,7 @@
 写在Store里是绝对不可取的，因为Store一旦异步化会导致dispatcher的waitFor失效（看waitFor的源码就知道了）
 
 - 延展属性
+
 ```
 var props = {
   foo: x,
@@ -38,9 +39,17 @@ var props = {
 var component = <Component {...props} />;
 ```
 
+- [react training](https://github.com/ryanflorence/react-training)
+
+- [Working with jQuery UI Dialog and ReactJS components](http://sterling.ghost.io/working-with-jqueryui-and-reactjs-components/)
+
+- [Integrate jQuery UI autocomplete and React](http://ludovf.net/reactbook/blog/reactjs-jquery-ui-autocomplete.html)
+
 - 快速入门
 
   - [React 入门教程](http://hulufei.gitbooks.io/react-tutorial/content/index.html)
   - [React 入门视频教程](http://www.tudou.com/listplay/ah20h1-t4V4/ikzB7N0ssxw.html?FR=LIAN)
+
+
 ---------
 ### 参考
