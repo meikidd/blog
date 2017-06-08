@@ -13,8 +13,6 @@
 
 - [不懂技术如何判断一个页面的开发复杂度](https://github.com/meikidd/blog/blob/master/how-to-judge-a-page-if-you-dont-know-tech.md)
 
-- [如何定制 Horizon](https://github.com/meikidd/blog/blob/master/customizing-horizon.md)
-
 - [Webpack 爱与恨](https://github.com/meikidd/blog/blob/master/kick-off-webpack.md)
 
 
@@ -26,6 +24,7 @@
 
 - [ReactJS 实用技巧和最佳实践](https://github.com/meikidd/blog/blob/master/react-tips-and-best-practices.md)
 
+- [如何定制 Horizon](https://github.com/meikidd/blog/blob/master/customizing-horizon.md)
 
 
 
