@@ -20,7 +20,7 @@
 ## 原则一 - 交互越多越复杂
 
 先看如下两个页面：
-![v2-3bfb29dfa5ff09b17749a1e29be5c39e_b.png][1]
+![1.png](https://raw.githubusercontent.com/meikidd/blog/master/images/2.png)
 
 左边的页面内容丰富、样式多样。内容包含页头、导航栏、tab标签、文章列表，每篇文章又包含回答计数、作者、最新回答时间、标题、标签，布局上有各种排列方式，还有各种色彩。
 
@@ -35,7 +35,7 @@
 - 弹窗
 
 对纯展示型页面来说，工程师只需要处理好页面的样式就好，不用考虑太多其他问题。另外，这个页面的文章列表部分，虽然内容很多，但实际上是相同结构的不断重复，在工程师眼里如下图所示：
-![v2-8c4ba0e9b956ec2c7541e6909e86b4e3_b.png][2]
+![2.png](https://raw.githubusercontent.com/meikidd/blog/master/images/2.png)
 
 工程师只需要把这个结构的模板写好，再填入不同的数据。常见的纯展示型页面可以有图片、表格、文字，以及这些元素的各种混合排列。
 
@@ -66,7 +66,3 @@
 ## 一个小故事
 
 最后分享一个小故事，在上家公司合作过一位产品经理，有一次我们周末有事找他，他说他没空，报了java培训班，要上课去了。。。要上课去了。。。要上课去了。。。快要被抢了饭碗的感觉。
-
-
-  [1]: https://github.com/meikidd/blog/raw/images/1.png
-  [2]: https://github.com/meikidd/blog/raw/images/2.png

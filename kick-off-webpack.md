@@ -324,7 +324,7 @@ let cssVars = {
 
 ### webpack - 一切皆是模块
 
-![图片描述][1]
+![图片描述](https://raw.githubusercontent.com/meikidd/blog/master/images/3.png)
 
 
 从官方网站上的图片可以看出，一切皆是模块，不管是 js 模块，还是 css、sass 样式，还是模板(hds)、图片(jpg/png)、字体等资源，都以被 webpack 当做互相依赖的模块（modules with dependencies）处理。经过 loader 的解析，最终处理成页面上可用的静态资源（static assets）。由于模块间需要有互相依赖关系，因此需要在 js 里 require 样式和图片等资源。
@@ -483,6 +483,4 @@ gulp.task('default', ['clean', 'clone', 'html', 'css', 'js' ]);
     - 项目发布任务
     - 启动服务器
   
-
-
-  [1]: https://github.com/meikidd/blog/raw/images/3.png
+  
