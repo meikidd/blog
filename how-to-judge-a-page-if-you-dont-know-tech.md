@@ -68,5 +68,5 @@
 最后分享一个小故事，在上家公司合作过一位产品经理，有一次我们周末有事找他，他说他没空，报了java培训班，要上课去了。。。要上课去了。。。要上课去了。。。快要被抢了饭碗的感觉。
 
 
-  [1]: /img/bVGw6b
-  [2]: /img/bVGw6w
+  [1]: https://github.com/meikidd/blog/raw/images/1.png
+  [2]: https://github.com/meikidd/blog/raw/images/2.png

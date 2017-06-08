@@ -485,4 +485,4 @@ gulp.task('default', ['clean', 'clone', 'html', 'css', 'js' ]);
   
 
 
-  [1]: /img/bVOebQ
+  [1]: https://github.com/meikidd/blog/raw/images/3.png
