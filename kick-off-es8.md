@@ -144,7 +144,7 @@ Object.values(obj); // ['yyy', 'zzz', 'xxx']
 #### 2.2 Object.entries
 
 静态方法 `Object.entries` 获取对象的虽有可遍历属性的键值对，以 [key, value] 数组的形式返回，顺序和 `Object.values()` 一致。  
-![举个栗子][example]
+<img src="https://raw.githubusercontent.com/meikidd/blog/master/images/example.png" height = "200" alt="举个栗子" align=center />
 
 ```
 // 基本用法
@@ -170,7 +170,8 @@ Object.entries(obj); // [['1', 'yyy'], ['3', 'zzz'], ['10': 'xxx']]
 
 #### 知识点展开：`for...in` 和 `for...of` 循环
 上述的 `Object.keys()`, `Object.values()`, `Object.entries()` 通常用来遍历一个对象，除了这三个方法外，常用的还有 `for...in` 和 `for...of` + `Object.keys()` 循环  
-![举个栗子][example]
+
+<img src="https://raw.githubusercontent.com/meikidd/blog/master/images/example.png" height = "200" alt="举个栗子" align=center />
 
 使用 `for...in` 遍历
 
