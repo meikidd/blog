@@ -32,9 +32,9 @@
 
 ## 育儿
 
-- [法伯睡眠宝典][https://github.com/meikidd/blog/blob/master/ferber.md]
+- [法伯睡眠宝典](https://github.com/meikidd/blog/blob/master/ferber.md)
 
-- [如何实施 E.A.S.Y 育儿法][https://github.com/meikidd/blog/blob/master/E.A.S.Y.md]
+- [如何实施 E.A.S.Y 育儿法](https://github.com/meikidd/blog/blob/master/E.A.S.Y.md)
 
 
 
