@@ -55,4 +55,4 @@
 ## 睡眠环境问题及矫正
 作者把抱睡／哄睡等问题都归结为入睡环境问题，解决的办法是培养宝宝自主入睡，使得他入睡环境和觉醒环境保持一致。具体的自主入睡方法就是循序渐进法，也就是法伯法。周期性的放任孩子哭闹一段时间，然后走进宝宝的房间，停留一会儿，在他还清醒时就离开房间。如此反复，每次延长一点放任哭闹的时间，直至孩子睡着为止。白天小睡时也一样，只是如果在半小时内既不哭闹也不入睡，就终止这次小睡。孩子的适应能力非常强，几天时间就可以让孩子建立起新的睡眠习惯。
 
-[1]: https://raw.githubusercontent.com/meikidd/blog/master/images/example.png
+[1]: https://raw.githubusercontent.com/meikidd/blog/master/images/ferber.png
