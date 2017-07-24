@@ -24,6 +24,8 @@
 
 - [如何定制 Horizon](https://github.com/meikidd/blog/blob/master/customizing-horizon.md)
 
+- [蕈样肉芽肿](https://github.com/meikidd/blog/blob/master/mycosis-fungoides.md)
+
 - [ReactJS 入门指南](https://github.com/meikidd/blog/blob/master/the-react-quick-start-guide.md)
 
 - [Flux 入门指南](https://github.com/meikidd/blog/blob/master/the-flux-quick-start-guide.md)
