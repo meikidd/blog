@@ -3,8 +3,6 @@
 
 ## 原创
 
-- [Napa.js 简介](https://github.com/meikidd/blog/blob/master/napa.js-introduction.md)
-
 - [ES8 走马观花](https://github.com/meikidd/blog/blob/master/kick-off-es8.md)
 
 - [npm 和 yarn 缓存策略对比](https://github.com/meikidd/blog/blob/master/npm-cache-and-yarn-cache.md)
@@ -23,6 +21,8 @@
 
 
 ## 翻译
+
+- [Napa.js 简介](https://github.com/meikidd/blog/blob/master/napa.js-introduction.md)
 
 - [如何定制 Horizon](https://github.com/meikidd/blog/blob/master/customizing-horizon.md)
 
