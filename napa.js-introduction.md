@@ -1,4 +1,6 @@
-# Napa.js 简介
+# [译] Napa.js 简介
+
+原文地址：https://github.com/Microsoft/napajs/wiki/introduction
 
 本文介绍 Napa.js 的核心概念，带领大家探索 Napa.js 是如何运转起来的。关于它的由来和开发初衷，可以阅读 [这篇文章](https://github.com/Microsoft/napajs/wiki/why-napa.js)
 
