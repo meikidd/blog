@@ -49,10 +49,10 @@
 
 
 **最后附上宝妈几乎每天不重样的辅食料理**
-![辅食](https://raw.githubusercontent.com/meikidd/blog/master/images/food/food1.png)
-![辅食](https://raw.githubusercontent.com/meikidd/blog/master/images/food/food2.png)
-![辅食](https://raw.githubusercontent.com/meikidd/blog/master/images/food/food3.png)
-![辅食](https://raw.githubusercontent.com/meikidd/blog/master/images/food/food4.png)
-![辅食](https://raw.githubusercontent.com/meikidd/blog/master/images/food/food5.png)
-![辅食](https://raw.githubusercontent.com/meikidd/blog/master/images/food/food6.png)
+![辅食](https://raw.githubusercontent.com/meikidd/blog/master/images/food/food1.JPG)
+![辅食](https://raw.githubusercontent.com/meikidd/blog/master/images/food/food2.JPG)
+![辅食](https://raw.githubusercontent.com/meikidd/blog/master/images/food/food3.JPG)
+![辅食](https://raw.githubusercontent.com/meikidd/blog/master/images/food/food4.JPG)
+![辅食](https://raw.githubusercontent.com/meikidd/blog/master/images/food/food5.JPG)
+![辅食](https://raw.githubusercontent.com/meikidd/blog/master/images/food/food6.JPG)
 
