@@ -31,7 +31,7 @@ RUM 可以分为三部分。首先，我们在客户端部署一段代码，这�
 
 这里将数据按浏览器进行分类，可以清晰地看出是 Browser B 导致了性能下降。由于用户的客户端环境差别很大，还可以按地区、设备类型等维度进行分类。
 
-# Synthetic Testing
+## Synthetic Testing
 
 这里推荐一个免费的性能分析工具 Webpagetest，可以用它来做性能分析。Synthetic testing 一般会选取特定的测试环境，而不是从真实用户那里收集数据。在特定的网络环境下，反复测试多次，这样能保证测试结果更可靠。最后，可以根据测试结果数据分析我们关心的那些性能指标。Webpagetest 里可以对测试环境进行非常细致的定制，比如可以指定用 Chrome 浏览器在 3G 网络下进行测试。
 
@@ -49,4 +49,5 @@ Synthetic testing 设置的测试环境最好是比较典型、普遍的，比�
 ## 相关资料
 
 Navigation Timing API: https://developer.mozilla.org/en-US/docs/Web/API/Navigation_timing_API
+
 《Using WebPageTest》:https://www.amazon.cn/dp/B016LI157G/
