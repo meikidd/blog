@@ -1,5 +1,8 @@
 # Meikidd's Blog
 
+## 性能相关
+
+- [Web 性能分析](https://github.com/meikidd/flex-layout/blob/master/performance/web-performance-testing.md)
 
 ## 原创
 
@@ -19,8 +22,7 @@
 
 - [Web Components 入门](https://github.com/meikidd/blog/blob/master/kick-off-webcomponents.md)
 
-- [异步流程控制-7行代码学会co模块](https://github.com/meikidd/blog/blob/master/learning-co.md)
-
+- [异步流程控制-7 行代码学会 co 模块](https://github.com/meikidd/blog/blob/master/learning-co.md)
 
 ## 翻译
 
@@ -43,6 +45,3 @@
 - [法伯睡眠宝典](https://github.com/meikidd/blog/blob/master/ferber.md)
 
 - [如何实施 E.A.S.Y 育儿法](https://github.com/meikidd/blog/blob/master/E.A.S.Y.md)
-
-
-
