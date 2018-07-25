@@ -2,7 +2,7 @@
 
 ## 性能相关
 
-- [Web 性能分析](https://github.com/meikidd/flex-layout/blob/master/performance/web-performance-testing.md)
+- [Web 性能分析](https://github.com/meikidd/blog/blob/master/performance/web-performance-testing.md)
 
 ## 原创
 
