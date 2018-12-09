@@ -6,6 +6,8 @@
 
 ## 原创
 
+- [《Node.js 开发实战》翻译流水账](https://github.com/meikidd/blog/blob/master/my-first-translate.md)
+
 - [5 种常用布局的 flex 实现](https://github.com/meikidd/flex-layout/blob/master/readme.md)
 
 - [ES8 走马观花](https://github.com/meikidd/blog/blob/master/kick-off-es8.md)
