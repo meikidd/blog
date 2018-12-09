@@ -25,5 +25,5 @@
 写完这篇流水账，新年也快到了，我也该收拾行李，继续上路了。
 
 链接：天猫 [点这里](https://detail.tmall.com/item.htm?id=582316476099)，京东 [点这里](https://item.jd.com/12460185.html)，豆瓣 [点这里](https://book.douban.com/subject/30373587/)
-![node.js the right way](https://raw.githubusercontent.com/meikidd/blog/master/images/nodejs-the-right-way.jpg)
+![node.js the right way](https://raw.githubusercontent.com/meikidd/blog/master/images/nodejs-the-right-way.png)
 
